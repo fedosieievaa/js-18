@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fedosieievaa/js-18/static/css/main.ae9c7d46.chunk.css",
-    "main.js": "/fedosieievaa/js-18/static/js/main.01cdec41.chunk.js",
-    "main.js.map": "/fedosieievaa/js-18/static/js/main.01cdec41.chunk.js.map",
-    "runtime-main.js": "/fedosieievaa/js-18/static/js/runtime-main.4f769e29.js",
-    "runtime-main.js.map": "/fedosieievaa/js-18/static/js/runtime-main.4f769e29.js.map",
-    "static/js/2.3db6822c.chunk.js": "/fedosieievaa/js-18/static/js/2.3db6822c.chunk.js",
-    "static/js/2.3db6822c.chunk.js.map": "/fedosieievaa/js-18/static/js/2.3db6822c.chunk.js.map",
-    "index.html": "/fedosieievaa/js-18/index.html",
-    "static/css/main.ae9c7d46.chunk.css.map": "/fedosieievaa/js-18/static/css/main.ae9c7d46.chunk.css.map",
-    "static/js/2.3db6822c.chunk.js.LICENSE.txt": "/fedosieievaa/js-18/static/js/2.3db6822c.chunk.js.LICENSE.txt",
-    "static/media/Anakin_Skywalker.531dde39.jpeg": "/fedosieievaa/js-18/static/media/Anakin_Skywalker.531dde39.jpeg",
-    "static/media/Ray_Skywalker.19025a32.jpeg": "/fedosieievaa/js-18/static/media/Ray_Skywalker.19025a32.jpeg"
+    "main.css": "/js-18/static/css/main.ae9c7d46.chunk.css",
+    "main.js": "/js-18/static/js/main.01cdec41.chunk.js",
+    "main.js.map": "/js-18/static/js/main.01cdec41.chunk.js.map",
+    "runtime-main.js": "/js-18/static/js/runtime-main.0ece3f21.js",
+    "runtime-main.js.map": "/js-18/static/js/runtime-main.0ece3f21.js.map",
+    "static/js/2.3db6822c.chunk.js": "/js-18/static/js/2.3db6822c.chunk.js",
+    "static/js/2.3db6822c.chunk.js.map": "/js-18/static/js/2.3db6822c.chunk.js.map",
+    "index.html": "/js-18/index.html",
+    "static/css/main.ae9c7d46.chunk.css.map": "/js-18/static/css/main.ae9c7d46.chunk.css.map",
+    "static/js/2.3db6822c.chunk.js.LICENSE.txt": "/js-18/static/js/2.3db6822c.chunk.js.LICENSE.txt",
+    "static/media/Anakin_Skywalker.531dde39.jpeg": "/js-18/static/media/Anakin_Skywalker.531dde39.jpeg",
+    "static/media/Ray_Skywalker.19025a32.jpeg": "/js-18/static/media/Ray_Skywalker.19025a32.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f769e29.js",
+    "static/js/runtime-main.0ece3f21.js",
     "static/js/2.3db6822c.chunk.js",
     "static/css/main.ae9c7d46.chunk.css",
     "static/js/main.01cdec41.chunk.js"
