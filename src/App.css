@@ -1,0 +1,125 @@
+body {
+    padding: 20px;
+    color: white;
+    background-color: rgb(151, 147, 143);
+    font-size: 28px;
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    margin: 80px auto 0 auto;
+    padding: 30px;
+    background: rgb(21, 32, 43);
+    border-radius: 10px;
+}
+
+.container_info {
+    width: 80%;
+    height: 90px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 10% (30% 30% 30%);
+}
+
+.user_photo {
+    position: relative;
+    top: -60px;
+    border-radius: 50%;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;
+    grid-row-end: 2;
+}
+
+.user_name {
+    position: relative;
+    top: -20px;
+    font-weight: bold;
+    padding: 3px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+.user_name img {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.user_nickname {
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 3px;
+    color: rgb(126, 126, 126);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+.post_date {
+    padding: 3px;
+    color: rgb(126, 126, 126);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+.post_content {
+    position: relative;
+    top: -20px;
+    padding: 3px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.post_image {
+    margin: 0 0 0 110px;
+    border-radius: 20px;
+}
+
+.statistics {
+    margin: 0 0 0 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: rgb(126, 126, 126);
+}
+
+.statistics_comments,
+.statistics_shares,
+.statistics_likes,
+.statistics_save {
+    margin-left: 30px;
+}
+
+.statistics_comments::before,
+.statistics_shares::before,
+.statistics_likes::before,
+.statistics_save {
+    position: relative;
+    top: 15px;
+    left: -20px;
+}
+
+.statistics_comments::before {
+    content: url(./components/assets/img/comments.png);
+}
+
+.statistics_shares::before {
+    content: url(./components/assets/img/shares.png);
+}
+
+.statistics_likes::before {
+    content: url(./components/assets/img/likes.png);
+}
+
+.statistics_save {
+    content: url(./components/assets/img/save.png);
+    top: 10px;
+}
